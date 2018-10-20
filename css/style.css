@@ -339,15 +339,14 @@ h5 {
 }
 
 .team {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: flex-start;
 	position: relative;
+	overflow: hidden;
+	max-width: 1139px;
 }
 
 .team .arrow-left,
 .team .arrow-right {
+	cursor: pointer;
 	position: absolute;
 	top: 33%;
 	background: #8b8b8b;
@@ -361,7 +360,7 @@ h5 {
 }
 
 .team .arrow-right {
-	right: 0;
+	right: 20px;
 }
 
 .team .arrow-left:hover,
@@ -369,8 +368,15 @@ h5 {
 	background: #c0301c;
 }
 
-.team .photo {
-	width: 23%;
+#slider {
+	width: 5148px;
+	position: relative;
+	height: 385px;;
+}
+
+.photo {
+	float: left;
+	margin-right: 22px;
 }
 
 .photo img {
