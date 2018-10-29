@@ -1,3 +1,4 @@
+/* Slider in Team block */
 let left = document.querySelector('#left');
 let right = document.querySelector('#right');
 var leftPosition = 0;
@@ -15,11 +16,12 @@ right.addEventListener('click', function(){
     let container = document.querySelector('#slider');
     leftPosition += 286;
     if(leftPosition > 0) {
-        leftPosition = -4004;
+        leftPosition = 0;
     }
     container.style.left = leftPosition + 'px';
 })
 
+/* Filter in Works block */
 const works = document.querySelectorAll('.gal_holder');
 const button = document.querySelectorAll('.filter li a');
 
