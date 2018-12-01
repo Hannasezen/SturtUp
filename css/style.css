@@ -454,9 +454,6 @@ h5 {
 	margin-top: 60px;
 }
 
-.filter li {
-
-}
 .filter a {
 	font-family: 'Roboto Slab', serif;
 	font-style: 16px;
@@ -608,22 +605,19 @@ h5 {
 
 }
 
-.text .date span {
-	font-weight: bold;
-	font-size: 24px;
+.text .date p {
+	font-size: 14px;
 	line-height: 20px;
+	letter-spacing: 2px;
+	font-weight: bold;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
 
-.text .date span p {
-	font-size: 14px;
-	line-height: 20px;
-	letter-spacing: 2px;
-	font-weight: bold;
-	
+.text .date span {
+	font-size: 24px;
 }
 
 .text h4 {
@@ -801,6 +795,7 @@ h5 {
 .footer h4 {
 	font-size: 12px;
 	font-family: 'Roboto Slab', serif;
+	margin-top: 40px;
 }
 
 

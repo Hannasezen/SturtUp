@@ -29,7 +29,10 @@ for(let i = 0; i < button.length; i++) {
     let name = button[i].id;
     button[i].addEventListener('click', function() {
         for(let i = 0; i < works.length; i++) {
-            if(works[i].id === name) {
+            if(name === 'all') {
+                works[i].style.display = "block";
+            }
+            else if(works[i].classList.contains(name)) {
                 works[i].style.display = "block";
             }
             else {
